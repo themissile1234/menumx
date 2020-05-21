@@ -1,0 +1,47 @@
+{
+  "name": "stickme",
+  "title": "jQuery StickMe Plugin",
+  "description": "Fixed elements depending on the scroll position",
+  "keywords": [
+    "stickme",
+    "stick",
+    "sticky",
+    "position",
+    "fix",
+    "fixed",
+    "lock",
+    "scroll",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "jQuery",
+    "plugin"
+  ],
+  "version": "1.3.0",
+  "homepage": "https://stickme.metodiev.dev",
+  "authors": [
+    {
+      "name": "Martin Metodiev",
+      "email": "metodiev.martin@gmail.com",
+      "url": "https://metodiev.dev"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/stickme.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "git://github.com/jquery/jquery.git"
+  },
+  "main": [
+    "dist/js/jquery.stickme.js",
+    "dist/js/jquery.stickme.min.js",
+    "dist/js/jquery.stickme.min.js.map",
+    "dist/css/stickme.css",
+    "dist/css/stickme.min.css",
+    "dist/css/stickme.min.css.map"
+  ],
+  "ignore": [
+    ".travis.yml"
+  ]
+}
